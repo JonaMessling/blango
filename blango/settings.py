@@ -34,7 +34,7 @@ SECRET_KEY = 'django-insecure-+sn%dpa!086+g+%44z9*^j^q-u4n!j(#wl)x9a%_1op@zz2+1-
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["hobbyregion-loyalcritic-8000.codio.io"]
+ALLOWED_HOSTS = ["navywatch-nikitalecture-8000.codio.io"]
 
 
 # Application definition
