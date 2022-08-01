@@ -37,7 +37,7 @@ class Dev(Configuration):
 
   # SECURITY WARNING: don't run with debug turned on in production!
   DEBUG = values.BooleanValue(True)
-
+  AUTH_USER_MODEL = "blango_auth.User"
   ALLOWED_HOSTS = values.ListValue(["localhost", "0.0.0.0", ".codio.io", "amazonmonster-hawaiiviolin-8000.codio.io"])
 
   LOGGING = {
@@ -75,6 +75,7 @@ class Dev(Configuration):
       'crispy_forms',
       'crispy_bootstrap5',
       'debug_toolbar',
+      'blango_auth',
       "blog",
   ]
   CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"
